@@ -9,7 +9,7 @@ int main()
  initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
  clrscr();
  rectangle(50,50,100,100);
- flood_fill(55,55,tc,rc);
+ flood_fill(51,51,tc,rc);
  getch();
  closegraph();
  return 0;
