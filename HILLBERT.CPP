@@ -29,11 +29,11 @@ void move(int j,int h,int &x,int &y)
       i--;
 
       hilbert(d,r,u,l,i,h,x,y);
-      move(d,h,x,y);
-      hilbert(r,d,l,u,i,h,x,y);
       move(r,h,x,y);
       hilbert(r,d,l,u,i,h,x,y);
-      move(u,h,x,y);
+      move(d,h,x,y);
+      hilbert(r,d,l,u,i,h,x,y);
+      move(l,h,x,y);
       hilbert(u,l,d,r,i,h,x,y);
       }
     }
