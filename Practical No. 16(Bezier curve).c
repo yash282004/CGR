@@ -9,8 +9,8 @@ void main()
 {
 int x[4],y[4],i;
 double put_x,put_y,t;
-int gr=DETECT,gm;
-initgraph(&gr,&gm,"C:\\TC\\BGI");
+int gd=DETECT,gm;
+initgraph(&gd,&gm,"C:\\TC\\BGI");
 printf("\n*** Bezier Curve ****");
 printf("\n Please enter x and y coordinates ");
 for(i=0;i<4;i++)                 
